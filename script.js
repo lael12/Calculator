@@ -29,6 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    const toggleThemeButton = document.getElementById('toggleTheme');
+    toggleThemeButton.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+    });
+
     function handleInput(input) {
         if (!isNaN(input) || input === '.') {
             handleNumber(input);
@@ -132,3 +137,5 @@ document.addEventListener('DOMContentLoaded', () => {
         display.textContent = displayValue;
     }
 });
+       
+
