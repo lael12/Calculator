@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; /* Light mode background */
+    background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     transition: background-color 0.3s ease;
 }
@@ -12,25 +12,25 @@ body {
 .container {
     position: relative;
     width: 100%;
-    max-width: 400px; /* Adjust as needed */
+    max-width: 400px;
     padding: 20px;
-    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    box-sizing: border-box;
 }
 
 .toggle-theme {
     position: absolute;
-    top: 5px; /* Adjust top position as needed */
-    right: 5px; /* Adjust right position as needed */
+    top: 5px;
+    right: 5px;
     background: none;
     border: none;
     cursor: pointer;
-    color: #666; /* Moon icon color */
+    color: #666;
     font-size: 1.5em;
-    z-index: 100; /* Ensure it's above other content */
+    z-index: 100;
 }
 
 .toggle-theme:hover {
-    color: #080000; /* Moon icon hover color */
+    color: #080000;
 }
 
 .calculator {
@@ -39,7 +39,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin-top: 20px; /* Adjust spacing from the toggle button */
+    margin-top: 20px;
     transition: background-color 0.3s ease;
 }
 
@@ -50,8 +50,8 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f9f9f9; /* Light mode display background */
-    color: #333; /* Light mode display text color */
+    background-color: #f9f9f9;
+    color: #333;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -69,94 +69,93 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
     width: 100%;
-    box-sizing: border-box; /* Ensure padding doesn't add to width */
+    box-sizing: border-box;
 }
 
 .number {
-    background-color: #e0e0e0; /* Light mode button background */
-    color: #333; /* Light mode button text color */
+    background-color: #e0e0e0;
+    color: #333;
 }
 
 .number:hover {
-    background-color: #d0d0d0; /* Light mode button hover background */
+    background-color: #d0d0d0;
 }
 
 .operator {
-    background-color: #ff8c00; /* Light mode operator button background */
-    color: white; /* Light mode operator button text color */
+    background-color: #ff8c00;
+    color: white;
 }
 
 .operator:hover {
-    background-color: #ff7000; /* Light mode operator button hover background */
+    background-color: #ff7000;
 }
 
 .equal {
-    background-color: #4caf50; /* Light mode equal button background */
-    color: white; /* Light mode equal button text color */
+    background-color: #4caf50;
+    color: white;
 }
 
 .equal:hover {
-    background-color: #45a045; /* Light mode equal button hover background */
+    background-color: #45a045;
 }
 
 .clear {
-    background-color: #f44336; /* Light mode clear button background */
-    color: white; /* Light mode clear button text color */
+    background-color: #f44336;
+    color: white;
 }
 
 .clear:hover {
-    background-color: #e53935; /* Light mode clear button hover background */
+    background-color: #e53935;
 }
 
-/* Dark mode styles */
 body.dark-mode {
-    background-color: #333; /* Dark mode background */
-    color: #fff; /* Dark mode text color */
+    background-color: #333;
+    color: #fff;
 }
 
 .calculator.dark-mode {
-    background-color: #444; /* Dark mode calculator background */
-    color: #fff; /* Dark mode calculator text color */
+    background-color: #444;
+    color: #fff;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 .display.dark-mode {
-    background-color: #555; /* Dark mode display background */
-    color: #fff; /* Dark mode display text color */
+    background-color: #555;
+    color: #fff;
 }
 
 .number.dark-mode {
-    background-color: #666 !important; /* Dark mode button background */
-    color: #fff !important; /* Dark mode button text color */
+    background-color: #666 !important;
+    color: #fff !important;
 }
 
 .number.dark-mode:hover {
-    background-color: #555 !important; /* Dark mode button hover background */
+    background-color: #555 !important;
 }
 
 .operator.dark-mode {
-    background-color: #ff8c00 !important; /* Dark mode operator button background (same as light mode) */
-    color: #fff !important; /* Dark mode operator button text color (same as light mode) */
+    background-color: #ff8c00 !important;
+    color: #fff !important;
 }
 
 .operator.dark-mode:hover {
-    background-color: #ff7000 !important; /* Dark mode operator button hover background (same as light mode) */
+    background-color: #ff7000 !important;
 }
 
 .equal.dark-mode {
-    background-color: #4caf50 !important; /* Dark mode equal button background (same as light mode) */
-    color: #fff !important; /* Dark mode equal button text color (same as light mode) */
+    background-color: #4caf50 !important;
+    color: #fff !important;
 }
 
 .equal.dark-mode:hover {
-    background-color: #45a045 !important; /* Dark mode equal button hover background (same as light mode) */
+    background-color: #45a045 !important;
 }
 
 .clear.dark-mode {
-    background-color: #f44336 !important; /* Dark mode clear button background (same as light mode) */
-    color: #fff !important; /* Dark mode clear button text color (same as light mode) */
+    background-color: #f44336 !important;
+    color: #fff !important;
 }
 
 .clear.dark-mode:hover {
-    background-color: #e53935 !important; /* Dark mode clear button hover background (same as light mode) */
+    background-color: #e53935 !important;
 }
